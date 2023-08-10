@@ -5,7 +5,7 @@ from spotipy.oauth2 import SpotifyClientCredentials
 cuisine_type = input("Enter a cuisine type to search for: ")
 
 # Use the Spotify API to search for playlists related to the cuisine type - need to add client_id and client_secret
-client_credentials_manager = SpotifyClientCredentials(client_id='enter your id here', client_secret='enter your secret/key here')
+client_credentials_manager = SpotifyClientCredentials(client_id='enter your id here', client_secret='enter your key here')
 sp = spotipy.Spotify(client_credentials_manager=client_credentials_manager)
 results = sp.search(q=cuisine_type, type='playlist')
 

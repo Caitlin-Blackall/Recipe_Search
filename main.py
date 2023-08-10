@@ -2,8 +2,8 @@ import requests
 
 def recipe_search(ingredient, cuisineType, mealType):
     # create the url depending on the input - to run the code need to enter the app_id and app_key
-    app_id = 'enter app id here'
-    app_key = 'enter app key here'
+    app_id = 'enter your id here'
+    app_key = 'enter your key here'
     api_request = 'https://api.edamam.com/search?app_id={}&app_key={}'.format(
     app_id, app_key)
     if ingredient:

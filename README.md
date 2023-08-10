@@ -2,7 +2,7 @@
 
 *Completed June 2023*
 
-## Idea
+## Project Overview
 This project was part of the Code First Girls course that I 
 completed. The project was a joint project that I completed 
 with one other girl. We were provided with a project brief 
@@ -24,7 +24,37 @@ part of the search query (also included your Application ID and Application Key
 4. Get the returned recipes from the API response
 5. Display the recipes for each search result
 
-## Process
+## Installation
+### Pre-Requisites:
++ [pip](https://pypi.org/project/pip/)
+
+### To run ```main.py```:
+1. Create [Edamam API account](https://www.edamam.com/signup) to generate 
+[app_id](https://developer.edamam.com//admin/applications/) and [app_key](https://developer.edamam.com//admin/applications/)
+
+
+2. Place app_id and app_key into ```main.py```
+
+
+3. ```pip install requests```
+
+
+4. ```python main.py```
+
+### To run ```extension.py```:
+1. Create an app on your [Spotify account](https://developers.spotify.com/) 
+to generate client_id and client_key
+
+
+2. Place client_id and client_key into ```extension.py```
+
+
+3. ```pip install spotipy``` 
+
+
+4. ```python extension.py```
+
+## Development Process
 To begin, my partner and I discussed the MOSCOW for the project 
 and what functionality we wanted the program to have. We then 
 both worked on the base code individually before coming 
